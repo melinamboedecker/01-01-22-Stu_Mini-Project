@@ -1,0 +1,126 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 100;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 26px;
+}
+
+header{
+    position: relative;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 75px;
+    list-style-type: none;
+    background-color: rgb(122, 151, 71);
+    border-bottom: 5px solid darkblue;
+    text-align: right; 
+    color: white;
+}
+
+ul{
+    padding: 10px;
+}
+
+#github{
+    display: inline;
+    margin: 10px;
+}
+
+#portfolio{
+    display: inline;
+    margin: 10px;
+}
+
+#contact{
+   display: inline;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+section{
+    position: absolute;
+    top: 76px;
+    z-index: 1;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    background-color: lemonchiffon;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#img1{
+    width: 200px;
+    height: 200px;
+    padding: 35px;
+    border: 3px solid darkgreen;
+    margin: 20px;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+form{
+    position: relative;
+    top: 430px;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color:rgb(122, 151, 71);
+}
+#contactme{
+    padding: 20px;
+}
+
+input{
+    margin: 10px;
+}
+
+#info{
+    position: relative;
+    height: 150px;
+    width: 30%;
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid darkblue;
+    padding: 0;
+    background-color: rgb(122, 151, 71);
+}
+
+/* some button styling from W3Docs.com */
+button{
+    display: inline-block;
+    background-color: #717172;
+    border: 3px #cccccc;
+    color:white;
+    text-align: center;
+    line-height: 50%;
+    font-size: 15px;
+    padding: 15px;
+    width: 125px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
